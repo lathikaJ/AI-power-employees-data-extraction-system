@@ -1,15 +1,85 @@
 {
     "status": "success",
-    "total_count": 20,
+    "total_count": 29,
     "employees": [
         {
-            "name": "John Furner",
-            "designation": "President and CEO, Walmart Inc.",
+            "name": "Antonia",
+            "designation": "Walmart associate",
             "email": null,
             "phone": null,
-            "linkedin": "https://www.linkedin.com/in/furner/",
-            "instagram": "https://www.instagram.com/furner/",
-            "profile_url": "https://corporate.walmart.com/about/leadership/john-furner",
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": null,
+            "department": null
+        },
+        {
+            "name": "Harold",
+            "designation": "Walmart associate",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": null,
+            "department": null
+        },
+        {
+            "name": "Oscar",
+            "designation": "Store manager",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": null,
+            "department": null
+        },
+        {
+            "name": "Sam Walton",
+            "designation": "Founder",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": "https://corporate.walmart.com/about/sam-walton",
+            "department": null
+        },
+        {
+            "name": "Doug McMillon",
+            "designation": "President and CEO",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": "https://corporate.walmart.com/about/doug-mcmillon",
+            "department": null
+        },
+        {
+            "name": "John Furner",
+            "designation": "President and CEO of Walmart U.S.",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": "https://corporate.walmart.com/about/john-furner",
+            "department": null
+        },
+        {
+            "name": "Kath McLay",
+            "designation": "President and CEO of Sam's Club",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": "https://corporate.walmart.com/about/kath-mclay",
+            "department": null
+        },
+        {
+            "name": "Judith McKenna",
+            "designation": "President and CEO of Walmart International",
+            "email": null,
+            "phone": null,
+            "linkedin": null,
+            "instagram": null,
+            "profile_url": "https://corporate.walmart.com/about/judith-mckenna",
             "department": null
         },
         {
@@ -27,8 +97,8 @@
             "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
             "email": null,
             "phone": null,
-            "linkedin": null,
-            "instagram": null,
+            "linkedin": "https://www.linkedin.com/company/walmart",
+            "instagram": "https://www.instagram.com/walmart/",
             "profile_url": "https://corporate.walmart.com/about/leadership/seth-dallaire",
             "department": null
         },
@@ -47,8 +117,8 @@
             "designation": "President and CEO, Walmart U.S.",
             "email": null,
             "phone": null,
-            "linkedin": null,
-            "instagram": null,
+            "linkedin": "https://www.linkedin.com/company/walmart",
+            "instagram": "https://www.instagram.com/walmart/",
             "profile_url": "https://corporate.walmart.com/about/leadership/david-guggina",
             "department": null
         },
@@ -107,8 +177,8 @@
             "designation": "Senior Vice President and Chief Counsel, Global Security, Aviation and Investigations, Walmart Inc.",
             "email": null,
             "phone": null,
-            "linkedin": "https://www.linkedin.com/company/walmart",
-            "instagram": "https://www.instagram.com/walmart/",
+            "linkedin": null,
+            "instagram": null,
             "profile_url": "https://corporate.walmart.com/about/leadership/bob-balfe",
             "department": null
         },
@@ -127,8 +197,8 @@
             "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
             "email": null,
             "phone": null,
-            "linkedin": null,
-            "instagram": null,
+            "linkedin": "https://www.linkedin.com/company/walmart",
+            "instagram": "https://www.instagram.com/walmart/",
             "profile_url": "https://corporate.walmart.com/about/leadership/dan-bryant",
             "department": null
         },
@@ -177,8 +247,8 @@
             "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
             "email": null,
             "phone": null,
-            "linkedin": null,
-            "instagram": null,
+            "linkedin": "https://www.linkedin.com/company/walmart",
+            "instagram": "https://www.instagram.com/walmart/",
             "profile_url": "https://corporate.walmart.com/about/leadership/elisebeth-collins",
             "department": null
         },
@@ -200,6 +270,26 @@
             "linkedin": "https://www.linkedin.com/in/megan-crozier-b680094/",
             "instagram": null,
             "profile_url": "https://corporate.walmart.com/about/leadership/megan-crozier",
+            "department": null
+        },
+        {
+            "name": "Kathryn McLay",
+            "designation": "President and CEO, Sam's Club",
+            "email": null,
+            "phone": null,
+            "linkedin": "https://www.linkedin.com/in/kathryn-mclay-4b3b3b1b/",
+            "instagram": "https://www.instagram.com/kathryn_mclay/",
+            "profile_url": "https://corporate.walmart.com/our-story/leadership/kathryn-mclay",
+            "department": null
+        },
+        {
+            "name": "Walmart Inc.",
+            "designation": "Equal Opportunity Employer",
+            "email": null,
+            "phone": null,
+            "linkedin": "https://www.linkedin.com/company/walmart/",
+            "instagram": "https://www.instagram.com/walmartworld/",
+            "profile_url": "https://www.walmart.com",
             "department": null
         }
     ]

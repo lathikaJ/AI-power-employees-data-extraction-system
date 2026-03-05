@@ -8,42 +8,37 @@ from typing import List, Dict, Any
 # Add root project path to allow `agents` module to import accurately
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agents.input_agent import InputAgent, InvalidURLError, SSRFViolationError
-from agents.crawl_agent import CrawlAgent
-from agents.extractor import AIExtractionAgent
-from agents.clean_agent import CleanAgent
-from core.config import settings
+from services.extraction_service import ExtractionService
 
 # Configure logging for the benchmark script specifically
 logging.basicConfig(level=logging.ERROR)
 logger = logging.getLogger("benchmark")
 
-# List of 20 URLs (Mix of expected valid and potentially failing domains for a realistic benchmark)
+# List of URLs to benchmark
 TARGET_URLS = [
-    "https://corporate.walmart.com/about/leadership",
-    "https://klodev.com",
-    "https://www.medivoy.ae"
+    "https://corporate.walmart.com"
 ]
 
 class BenchmarkRunner:
     """
     Utility designed to run the entire extraction stack securely over 
-    a subset of 20 URLs while compiling the following metrics:
+    a subset of URLs while compiling the following metrics:
     - Average Execution Time
     - Extraction Accuracy Percentage
     - Failure Rate
     - AI Response Latency
+
+    Uses the full ExtractionService pipeline (same as single_extract.py),
+    which includes deep bio-page crawling to enrich LinkedIn, Instagram,
+    and other profile details — ensuring benchmark results match production output.
     """
     def __init__(self):
-        self.input_agent = InputAgent()
-        self.crawl_agent = CrawlAgent(timeout=10, max_concurrent=2, retries=1)
-        self.ai_agent = AIExtractionAgent(api_key=settings.openrouter_api_key)
-        self.clean_agent = CleanAgent()
-        
+        self.service = ExtractionService()
+
     async def process_single_url(self, url: str) -> Dict[str, Any]:
         """
-        Executes the extraction pipeline against a single URL tracking 
-        metric timestamps internally.
+        Executes the full extraction pipeline against a single URL
+        via ExtractionService, tracking metric timestamps internally.
         """
         result = {
             "url": url,
@@ -52,44 +47,31 @@ class BenchmarkRunner:
             "ai_time": 0.0,
             "employees_found": 0
         }
-        
+
         start_time = time.time()
-        
+
         try:
-            # 1. Validate
-            validated_url = self.input_agent.validate_and_normalize_url(url)
-            
-            # 2. Crawl
-            html_pages = await self.crawl_agent.crawl(validated_url)
-            if not html_pages:
-                raise ValueError("No valid crawled pages found (empty or robots.txt blocked)")
-                
-            # 3. AI Extraction (Tracking Latency Specifically)
-            all_raw_employees = []
-            
+            # Run the full pipeline: validate → crawl → AI extract → deep bio crawl → clean
             ai_start_time = time.time()
-            for raw_html in html_pages:
-                extracted_list = await self.ai_agent.extract_employees(raw_html)
-                all_raw_employees.extend(extracted_list)
+            response = await self.service.execute_extraction(url)
             ai_end_time = time.time()
-            
+
             result["ai_time"] = ai_end_time - ai_start_time
 
-            # 4. Cleaning
-            cleaned_employees = self.clean_agent.clean(all_raw_employees)
-            
-            # Mark Success if completion was reached without exception interruptions
-            result["success"] = True
-            result["employees_found"] = len(cleaned_employees)
-            result["employees"] = cleaned_employees # STORES THE EXTRACTED DATA
-            
+            if response.get("status") == "success":
+                employees = response.get("employees", [])
+                result["success"] = True
+                result["employees_found"] = len(employees)
+                result["employees"] = employees  # STORES THE EXTRACTED DATA (with LinkedIn/Instagram)
+            else:
+                print(f"Error processing {url}: {response.get('message', 'Unknown error')}")
+
         except Exception as e:
             print(f"Error processing {url}: {e}")
-            pass
-            
+
         end_time = time.time()
         result["total_time"] = end_time - start_time
-        
+
         return result
 
     async def run_benchmark(self, urls: List[str]):

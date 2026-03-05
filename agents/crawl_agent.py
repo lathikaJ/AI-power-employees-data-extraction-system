@@ -27,7 +27,20 @@ class CrawlAgent:
             "/about",
             "/about-us",
             "/team",
-            "/our-team"
+            "/our-team",
+            "/leadership",
+            "/people",
+            "/contact",
+            "/contact-us",
+            "/careers",
+            "/careers-us",
+            "/reach-us",
+            "/reach-out",
+            "/reach-out-us",
+            "/connect",
+            "/connect-us",
+            "/connect-out",
+            "/connect-out-us"
         ]
         self.timeout = timeout
         self.retries = retries
