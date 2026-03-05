@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+httpx
+beautifulsoup4
+openai
+spacy
+python-dotenv
+pydantic-settings
+slowapi

@@ -1,0 +1,279 @@
+[
+    {
+        "url": "https://corporate.walmart.com/about/leadership",
+        "success": true,
+        "total_time": 69.06331062316895,
+        "ai_time": 67.22082781791687,
+        "employees_found": 20,
+        "employees": [
+            {
+                "name": "John Furner",
+                "designation": "President and CEO, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/john-furner",
+                "department": null
+            },
+            {
+                "name": "Dan Bartlett",
+                "designation": "Executive Vice President, Corporate Affairs, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/dan-bartlett",
+                "department": null
+            },
+            {
+                "name": "Seth Dallaire",
+                "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/seth-dallaire",
+                "department": null
+            },
+            {
+                "name": "Daniel Danker",
+                "designation": "Executive Vice President, AI Acceleration, Product and Design",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/daniel-danker",
+                "department": null
+            },
+            {
+                "name": "David Guggina",
+                "designation": "President and CEO, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/david-guggina",
+                "department": null
+            },
+            {
+                "name": "Suresh Kumar",
+                "designation": "Executive Vice President, Global Chief Technology Officer and Chief Development Officer, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/suresh-kumar",
+                "department": null
+            },
+            {
+                "name": "Donna Morris",
+                "designation": "Executive Vice President and Chief People Officer, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/donna-morris",
+                "department": null
+            },
+            {
+                "name": "Chris Nicholas",
+                "designation": "President and CEO, Walmart International",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/chris-nicholas",
+                "department": null
+            },
+            {
+                "name": "John David Rainey",
+                "designation": "Executive Vice President and Chief Financial Officer, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/john-david-rainey",
+                "department": null
+            },
+            {
+                "name": "Latriece Watkins",
+                "designation": "President and CEO, Sam\u2019s Club",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/latriece-watkins",
+                "department": null
+            },
+            {
+                "name": "Bob Balfe",
+                "designation": "Senior Vice President and Chief Counsel, Global Security, Aviation and Investigations, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/bob-balfe",
+                "department": null
+            },
+            {
+                "name": "Julie Barber",
+                "designation": "Executive Vice President and Chief Merchandising Officer, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/julie-barber",
+                "department": null
+            },
+            {
+                "name": "Dan Bryant",
+                "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/dan-bryant",
+                "department": null
+            },
+            {
+                "name": "David M. Chojnowski",
+                "designation": "Senior Vice President, Global Treasurer and Tax",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/david-m-chojnowski",
+                "department": null
+            },
+            {
+                "name": "Ralph Clare",
+                "designation": "Executive Vice President, Health & Wellness, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/ralph-clare",
+                "department": null
+            },
+            {
+                "name": "Cedric Clark",
+                "designation": "Executive Vice President, Store Operations, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/cedric-clark",
+                "department": null
+            },
+            {
+                "name": "Isaac Cody",
+                "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/isaac-cody",
+                "department": null
+            },
+            {
+                "name": "Elisebeth Collins",
+                "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/elisebeth-collins",
+                "department": null
+            },
+            {
+                "name": "Jarred Crabtree",
+                "designation": "Senior Vice President, Global Security and Chief Security Officer",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/jarred-crabtree",
+                "department": null
+            },
+            {
+                "name": "Megan Crozier",
+                "designation": "Executive Vice P",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": "/about/leadership/megan-crozier",
+                "department": null
+            }
+        ]
+    },
+    {
+        "url": "https://klodev.com",
+        "success": true,
+        "total_time": 9.483717441558838,
+        "ai_time": 7.5993781089782715,
+        "employees_found": 1,
+        "employees": [
+            {
+                "name": "Chris Reid",
+                "designation": "Head of",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            }
+        ]
+    },
+    {
+        "url": "https://www.medivoy.ae",
+        "success": true,
+        "total_time": 21.561832904815674,
+        "ai_time": 20.058209896087646,
+        "employees_found": 4,
+        "employees": [
+            {
+                "name": "Medivoy Team",
+                "designation": "Global Healthcare Platform",
+                "email": null,
+                "phone": null,
+                "linkedin": "https://www.linkedin.com/company/medivoy",
+                "instagram": "https://www.instagram.com/medivoy",
+                "profile_url": "https://www.medivoy.com",
+                "department": null
+            },
+            {
+                "name": "Team",
+                "designation": "Founders",
+                "email": null,
+                "phone": null,
+                "linkedin": "https://linkedin.com/company/medivoy",
+                "instagram": "https://instagram.com/medivoy",
+                "profile_url": "https://medivoy.com/about",
+                "department": null
+            },
+            {
+                "name": "Healthcare Team",
+                "designation": "Medical Specialists",
+                "email": null,
+                "phone": null,
+                "linkedin": "https://linkedin.com/company/medivoy",
+                "instagram": "https://instagram.com/medivoy",
+                "profile_url": "https://medivoy.com/specialists",
+                "department": null
+            },
+            {
+                "name": "Support Team",
+                "designation": "Patient Care",
+                "email": null,
+                "phone": null,
+                "linkedin": "https://linkedin.com/company/medivoy",
+                "instagram": "https://instagram.com/medivoy",
+                "profile_url": "https://medivoy.com/contact",
+                "department": null
+            }
+        ]
+    }
+]

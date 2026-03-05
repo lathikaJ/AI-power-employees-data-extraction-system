@@ -1,0 +1,96 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.2, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: D:\lathika\infynd\Employee Data Scraping & Extraction System
+plugins: anyio-4.12.1, asyncio-1.3.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 1 item
+
+tests/test_api.py::test_successful_extraction FAILED                     [100%]
+
+================================== FAILURES ===================================
+_________________________ test_successful_extraction __________________________
+Traceback (most recent call last):
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py", line 353, in from_call
+    result: TResult | None = func()
+                             ^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py", line 245, in <lambda>
+    lambda: runtest_hook(item=item, **kwds),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 167, in _multicall
+    raise exception
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 139, in _multicall
+    teardown.throw(exception)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\logging.py", line 850, in pytest_runtest_call
+    yield
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 139, in _multicall
+    teardown.throw(exception)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\capture.py", line 900, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 139, in _multicall
+    teardown.throw(exception)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\skipping.py", line 268, in pytest_runtest_call
+    return (yield)
+            ^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\runner.py", line 179, in pytest_runtest_call
+    item.runtest()
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py", line 1720, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_hooks.py", line 512, in __call__
+    return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 167, in _multicall
+    raise exception
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 139, in _multicall
+    teardown.throw(exception)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 53, in run_old_style_hookwrapper
+    return result.get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_result.py", line 103, in get_result
+    raise exc.with_traceback(tb)
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 38, in run_old_style_hookwrapper
+    res = yield
+          ^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pluggy\_callers.py", line 121, in _multicall
+    res = hook_impl.function(*args)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\_pytest\python.py", line 166, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lathika\infynd\Employee Data Scraping & Extraction System\tests\test_api.py", line 77, in test_successful_extraction
+    assert response.status_code == 200
+AssertionError: assert 500 == 200
+ +  where 500 = <Response [500 Internal Server Error]>.status_code
+------------------------------ Captured log call ------------------------------
+ERROR    services.extraction_service:extraction_service.py:80 Unexpected orchestration error: '\n  "name"'
+Traceback (most recent call last):
+  File "D:\lathika\infynd\Employee Data Scraping & Extraction System\services\extraction_service.py", line 58, in execute_extraction
+    extracted_list = await self.ai_agent.extract_employees(raw_html)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\lathika\infynd\Employee Data Scraping & Extraction System\agents\extractor.py", line 82, in extract_employees
+    prompt = PROMPT_TEMPLATE.format(html_content=raw_html)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: '\n  "name"'
+WARNING  api.routes:routes.py:30 Extraction failed with error from service: An internal unexpected error occurred during the extraction workflow.
+============================== warnings summary ===============================
+C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\_internal\_config.py:271
+  C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\pydantic\_internal\_config.py:271: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.5/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_api.py::test_successful_extraction - assert 500 == 200
+======================== 1 failed, 1 warning in 2.16s =========================

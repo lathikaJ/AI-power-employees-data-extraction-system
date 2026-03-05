@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="6.149" timestamp="2026-03-04T16:01:59.323751+05:30" hostname="SUGANESH"><testcase classname="tests.test_api" name="test_invalid_url" time="0.010" /><testcase classname="tests.test_api" name="test_blocked_internal_ip" time="0.006" /><testcase classname="tests.test_api" name="test_empty_html" time="3.093" /><testcase classname="tests.test_api" name="test_malformed_ai_response" time="0.883"><failure message="assert 400 == 200&#10; +  where 400 = &lt;Response [400 Bad Request]&gt;.status_code">mock_crawl_agent = &lt;AsyncMock name='crawl' id='2501779503968'&gt;
+mock_openai_malformed = &lt;AsyncMock name='create' id='2501787601952'&gt;
+
+    def test_malformed_ai_response(mock_crawl_agent, mock_openai_malformed):
+        """Test AI JSON Parsing failure and cleanup mechanics allowing graceful 0 count returns."""
+        response = client.post("/api/v1/extract", json={"url": "https://example.com"})
+&gt;       assert response.status_code == 200
+E       assert 400 == 200
+E        +  where 400 = &lt;Response [400 Bad Request]&gt;.status_code
+
+tests\test_api.py:70: AssertionError</failure></testcase><testcase classname="tests.test_api" name="test_successful_extraction" time="0.008"><failure message="assert 400 == 200&#10; +  where 400 = &lt;Response [400 Bad Request]&gt;.status_code">mock_crawl_agent = &lt;AsyncMock name='crawl' id='2501788613184'&gt;
+mock_openai_success = &lt;AsyncMock name='create' id='2501788606368'&gt;
+
+    def test_successful_extraction(mock_crawl_agent, mock_openai_success):
+        """Test full integration success returning precisely cleansed data mapped correctly."""
+        response = client.post("/api/v1/extract", json={"url": "https://example.com"})
+&gt;       assert response.status_code == 200
+E       assert 400 == 200
+E        +  where 400 = &lt;Response [400 Bad Request]&gt;.status_code
+
+tests\test_api.py:77: AssertionError</failure></testcase></testsuite></testsuites>

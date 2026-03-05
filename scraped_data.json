@@ -1,0 +1,198 @@
+{
+  "status": "success",
+  "total_count": 24,
+  "employees": [
+    {
+      "name": "Tim Cook",
+      "designation": "CEO",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Katherine Adams",
+      "designation": "Senior Vice President and General Counsel",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Eddy Cue",
+      "designation": "Senior Vice President Services",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Craig Federighi",
+      "designation": "Senior Vice President Software Engineering",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Greg \u201cJoz\u201d Joswiak",
+      "designation": "Senior Vice President Worldwide Marketing",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Sabih Khan",
+      "designation": "Chief Operating Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Deirdre O\u2019Brien",
+      "designation": "Senior Vice President Retail + People",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Kevan Parekh",
+      "designation": "Senior Vice President and Chief Financial Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Johny Srouji",
+      "designation": "Senior Vice President Hardware Technologies",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "John Ternus",
+      "designation": "Senior Vice President Hardware Engineering",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Mike Fenger",
+      "designation": "Vice President Worldwide Sales",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Luca Maestri",
+      "designation": "Vice President Corporate Services",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Isabel Ge Mahe",
+      "designation": "Vice President and Managing Director of Greater China",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Tor Myhren",
+      "designation": "Vice President Marketing Communications",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Adrian Perica",
+      "designation": "Vice President Corporate Development",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Kristin Huguet Quayle",
+      "designation": "Vice President Worldwide Communications",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Phil Schiller",
+      "designation": "Apple Fellow Board of Directors",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Arthur D. Levinson",
+      "designation": "Chairman of the Board, Apple",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": "Apple"
+    },
+    {
+      "name": "Wanda Austin, Ph.D.",
+      "designation": "Former President and CEO The Aerospace Corporation",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": null
+    },
+    {
+      "name": "Alex Gorsky",
+      "designation": "Former Executive Chair Johnson & Johnson",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": null
+    },
+    {
+      "name": "Andrea Jung",
+      "designation": "President and CEO Grameen America",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": null
+    },
+    {
+      "name": "Monica Lozano",
+      "designation": "Former President and CEO College Futures Foundation",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": null
+    },
+    {
+      "name": "Ronald D. Sugar, Ph.D.",
+      "designation": "Former Chair and CEO Northrop Grumman Corporation",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": null
+    },
+    {
+      "name": "Susan L. Wagner",
+      "designation": "Co-Founder and Director BlackRock",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "department": null
+    }
+  ]
+}
