@@ -1,0 +1,1638 @@
+Starting extraction for: https://corporate.walmart.com/about/leadership
+Extraction complete! Data saved to: D:\lathika\infynd\Employee Data Scraping & Extraction System\output.json
+Found 53 employees.
+INFO:services.extraction_service:Validating URL: https://corporate.walmart.com/about/leadership
+INFO:services.extraction_service:Crawling URL: https://corporate.walmart.com/about/leadership
+INFO:agents.crawl_agent:Deep link detected (https://corporate.walmart.com/about/leadership/). Skipping sub-path crawling to stay focused.
+INFO:agents.crawl_agent:Fetching: https://corporate.walmart.com/about/leadership/ (Attempt 1)
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/ "HTTP/1.1 200 OK"
+INFO:agents.crawl_agent:Successfully fetched: https://corporate.walmart.com/about/leadership/
+INFO:services.extraction_service:Running AI extraction for page chunk 1 of 1
+INFO:agents.extractor:Cleaning HTML. Initial length: 211395
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 11295
+INFO:agents.extractor:Minimized HTML extraction payload: 11295 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (11295 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 314)
+ERROR:agents.extractor:Raw content that failed: ```json
+{
+  "employees": [
+    {
+      "name": "John Furner",
+      "designation": "President and CEO, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/john-furner",
+      "department": null
+    },
+    {
+      "name": "Dan Bartlett",
+      "designation": "Executive Vice President, Corporate Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/dan-bartlett",
+      "department": null
+    },
+    {
+      "name": "Seth Dallaire",
+      "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/seth-dallaire",
+      "department": null
+    },
+    {
+      "name": "Daniel Danker",
+      "designation": "Executive Vice President, AI Acceleration, Product and Design",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/daniel-danker",
+      "department": null
+    },
+    {
+      "name": "David Guggina",
+      "designation": "President and CEO, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/david-guggina",
+      "department": null
+    },
+    {
+      "name": "Suresh Kumar",
+      "designation": "Executive Vice President, Global Chief Technology Officer and Chief Development Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/suresh-kumar",
+      "department": null
+    },
+    {
+      "name": "Donna Morris",
+      "designation": "Executive Vice President and Chief People Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/donna-morris",
+      "department": null
+    },
+    {
+      "name": "Chris Nicholas",
+      "designation": "President and CEO, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/chris-nicholas",
+      "department": null
+    },
+    {
+      "name": "John David Rainey",
+      "designation": "Executive Vice President and Chief Financial Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/john-david-rainey",
+      "department": null
+    },
+    {
+      "name": "Latriece Watkins",
+      "designation": "President and CEO, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/latriece-watkins",
+      "department": null
+    },
+    {
+      "name": "Bob Balfe",
+      "designation": "Senior Vice President and Chief Counsel, Global Security, Aviation and Investigations, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/bob-balfe",
+      "department": null
+    },
+    {
+      "name": "Julie Barber",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/julie-barber",
+      "department": null
+    },
+    {
+      "name": "Dan Bryant",
+      "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/dan-bryant",
+      "department": null
+    },
+    {
+      "name": "David M. Chojnowski",
+      "designation": "Senior Vice President, Global Treasurer and Tax",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/david-m-chojnowski",
+      "department": null
+    },
+    {
+      "name": "Ralph Clare",
+      "designation": "Executive Vice President, Health & Wellness, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/ralph-clare",
+      "department": null
+    },
+    {
+      "name": "Cedric Clark",
+      "designation": "Executive Vice President, Store Operations, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/cedric-clark",
+      "department": null
+    },
+    {
+      "name": "Isaac Cody",
+      "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/isaac-cody",
+      "department": null
+    },
+    {
+      "name": "Elisebeth Collins",
+      "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/elisebeth-collins",
+      "department": null
+    },
+    {
+      "name": "Jarred Crabtree",
+      "designation": "Senior Vice President, Global Security and Chief Security Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/jarred-crabtree",
+      "department": null
+    },
+    {
+      "name": "Megan Crozier",
+      "designation": "Executive Vice President, General Merchandise, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/megan-crozier",
+      "department": null
+    },
+    {
+      "name": "Rhianon DeLeeuw",
+      "designation": "Senior Vice President and Chief Financial Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/rhianon-deleeuw",
+      "department": null
+    },
+    {
+      "name": "Michael Ehret",
+      "designation": "Senior Vice President and Chief People Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/michael-ehret",
+      "department": null
+    },
+    {
+      "name": "Myron Frazier",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/myron-frazier",
+      "department": null
+    },
+    {
+      "name": "Julie Gehrki",
+      "designation": "President, Walmart Foundation and Senior Vice President, Philanthropy, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/julie-gehrki",
+      "department": null
+    },
+    {
+      "name": "Jerry R. Geisler III",
+      "designation": "Executive Vice President and Chief Information Security Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/jerry-r-geisler-iii",
+      "department": null
+    },
+    {
+      "name": "Jerry C. Huang",
+      "designation": "Senior Vice President and Chief Counsel, Product & Technology, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/jerry-huang",
+      "department": null
+    },
+    {
+      "name": "Denise Incandela",
+      "designation": "Executive Vice President, Fashion, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/denise-incandela",
+      "department": null
+    },
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/silvia-azrai-kawas",
+      "department": null
+    },
+    {
+      "name": "Kyle Kinnard",
+      "designation": "Executive Vice President and Chief Operating Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/kyle-kinnard",
+      "department": null
+    },
+    {
+      "name": "Kerry Kotouc",
+      "designation": "Senior Vice President and Chief Counsel, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/kerry-kotouc",
+      "department": null
+    },
+    {
+      "name": "John Laney",
+      "designation": "Executive Vice President, Food, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/john-laney",
+      "department": null
+    },
+    {
+      "name": "Claire MacIntyre",
+      "designation": "Senior Vice President and Chief People Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/claire-macintyre",
+      "department": null
+    },
+    {
+      "name": "Diana Marshall",
+      "designation": "Executive Vice President and Chief Experience Officer, Sam's Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/diana-marshall",
+      "department": null
+    },
+    {
+      "name": "Mandy McDonald-Brashear",
+      "designation": "Senior Vice President and Chief People Officer, Global Corporate Functions, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/mandy-mcdonald-brashear",
+      "department": null
+    },
+    {
+      "name": "Kathleen McLaughlin",
+      "designation": "Executive Vice President and Chief Sustainability Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/kathleen-mclaughlin",
+      "department": null
+    },
+    {
+      "name": "Dwayne Milum",
+      "designation": "Senior Vice President and Controller, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/dwayne-milum",
+      "department": null
+    },
+    {
+      "name": "Rob Montgomery",
+      "designation": "Executive Vice President, Supply Chain Operations, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/rob-montgomery",
+      "department": null
+    },
+    {
+      "name": "Elizabeth Norton",
+      "designation": "Senior Vice President and Chief Counsel, Growth, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/elizabeth-norton",
+      "department": null
+    },
+    {
+      "name": "Allyson Park",
+      "designation": "Senior Vice President and Chief Communications Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/allyson-park",
+      "department": null
+    },
+    {
+      "name": "Chad Pekron",
+      "designation": "Senior Vice President and Chief Counsel, Litigation, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/chad-pekron",
+      "department": null
+    },
+    {
+      "name": "Tracy Poulliot",
+      "designation": "Executive Vice President, eCommerce and Marketing, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/tracy-poulliot",
+      "department": null
+    },
+    {
+      "name": "Dawn Ptak",
+      "designation": "Senior Vice President and Chief Audit Executive, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/dawn-ptak",
+      "department": null
+    },
+    {
+      "name": "Lance de la Rosa",
+      "designation": "Executive Vice President, Omni Fulfillment, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/lance-de-la-rosa",
+      "department": null
+    },
+    {
+      "name": "Joe Ruschell",
+      "designation": "Senior Vice President and Chief Counsel, Office of the Corporate Secretary",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/joe-ruschell",
+      "department": null
+    },
+    {
+      "name": "Todd Sears",
+      "designation": "Executive Vice President and Chief Financial Officer, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/todd-sears",
+      "department": null
+    },
+    {
+      "name": "Kieran Shanahan",
+      "designation": "Executive Vice President and Chief Operating Officer, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/kieran-shanahan",
+      "department": null
+    },
+    {
+      "name": "William Silcott",
+      "designation": "Senior Vice President and Chief Counsel, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/william-silcott",
+      "department": null
+    },
+    {
+      "name": "Jeff Spalding",
+      "designation": "Senior Vice President and Chief Counsel, Walmart International and Walmart Sourcing",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/jeff-spalding",
+      "department": null
+    },
+    {
+      "name": "Hari Vasudev",
+      "designation": "Executive Vice President and Tech Operating Partner, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": "https://corporate.walmart.com/about/leadership/hari-vasudev",
+      "department": null
+    },
+    {
+      "name": "Maren Waggoner",
+      "designation":
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.396096 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 53 employees in chunk 1.
+INFO:services.extraction_service:Extracted 53 raw employees from page chunk 1
+INFO:services.extraction_service:Deep crawling 40 bio pages with concurrency limit 5.
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/seth-dallaire "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/john-furner "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/david-guggina "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157699
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5267
+INFO:agents.extractor:Minimized HTML extraction payload: 5267 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5267 characters)...
+INFO:agents.extractor:Cleaning HTML. Initial length: 160169
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 6072
+INFO:agents.extractor:Minimized HTML extraction payload: 6072 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (6072 characters)...
+INFO:agents.extractor:Cleaning HTML. Initial length: 157928
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5644
+INFO:agents.extractor:Minimized HTML extraction payload: 5644 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5644 characters)...
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/dan-bartlett "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/daniel-danker "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 161873
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5926
+INFO:agents.extractor:Minimized HTML extraction payload: 5926 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5926 characters)...
+INFO:agents.extractor:Cleaning HTML. Initial length: 160093
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5282
+INFO:agents.extractor:Minimized HTML extraction payload: 5282 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5282 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.399582 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/daniel-danker: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/suresh-kumar "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 161984
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 7297
+INFO:agents.extractor:Minimized HTML extraction payload: 7297 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (7297 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/david-guggina: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/donna-morris "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 161217
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 6422
+INFO:agents.extractor:Minimized HTML extraction payload: 6422 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (6422 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/suresh-kumar: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/chris-nicholas "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 160259
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5659
+INFO:agents.extractor:Minimized HTML extraction payload: 5659 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5659 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/chris-nicholas: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/john-david-rainey "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 159740
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5199
+INFO:agents.extractor:Minimized HTML extraction payload: 5199 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5199 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 292)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Seth Dallaire",
+      "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/dan-bartlett: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 5/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/latriece-watkins "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158904
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5556
+INFO:agents.extractor:Minimized HTML extraction payload: 5556 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5556 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 330)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Donna Morris",
+      "designation": "Executive Vice President and Chief People Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/donnamorris2/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.422679 seconds
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 322)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "John Furner",
+      "designation": "President and CEO, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/furner/",
+      "instagram": "https://www.instagram.com/furner/",
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.988807 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 292)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Seth Dallaire",
+      "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 322)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "John Furner",
+      "designation": "President and CEO, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/furner/",
+      "instagram": "https://www.instagram.com/furner/",
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.492633 seconds
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 330)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Donna Morris",
+      "designation": "Executive Vice President and Chief People Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/donnamorris2/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 299)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "John David Rainey",
+      "designation": "Executive Vice President and Chief Financial Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 321)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Latriece Watkins",
+      "designation": "President and CEO, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/latriece-watkins-28113021/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.437511 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/donna-morris: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/bob-balfe "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 156827
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 4395
+INFO:agents.extractor:Minimized HTML extraction payload: 4395 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (4395 characters)...
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/john-david-rainey: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/julie-barber "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157832
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5657
+INFO:agents.extractor:Minimized HTML extraction payload: 5657 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5657 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.456816 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.465555 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 322)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "John Furner",
+      "designation": "President and CEO, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/furner/",
+      "instagram": "https://www.instagram.com/furner/",
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 292)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Seth Dallaire",
+      "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/bob-balfe: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/dan-bryant "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158143
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5694
+INFO:agents.extractor:Minimized HTML extraction payload: 5694 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5694 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/julie-barber: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/david-m-chojnowski "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158150
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5689
+INFO:agents.extractor:Minimized HTML extraction payload: 5689 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5689 characters)...
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/latriece-watkins: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 10/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/ralph-clare "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157580
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5151
+INFO:agents.extractor:Minimized HTML extraction payload: 5151 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5151 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/john-furner: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/cedric-clark "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157173
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5009
+INFO:agents.extractor:Minimized HTML extraction payload: 5009 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5009 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.410412 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.882150 seconds
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 292)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Seth Dallaire",
+      "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/seth-dallaire: found 0 records
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 350)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Dan Bryant",
+      "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Public Policy and Government Affairs"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/isaac-cody "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158464
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 6134
+INFO:agents.extractor:Minimized HTML extraction payload: 6134 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (6134 characters)...
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/cedric-clark: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/elisebeth-collins "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158055
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5377
+INFO:agents.extractor:Minimized HTML extraction payload: 5377 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5377 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING:agents.extractor:Error during AI extraction: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772712120000'}, 'provider_name': None}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 5s... (Attempt 1/4)
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.415351 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 357)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "David M. Chojnowski",
+      "designation": "Senior Vice President, Global Treasury and Tax",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/david-m-chojnowski-885748118/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Treasury and Tax"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.385455 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/david-m-chojnowski: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/jarred-crabtree "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157864
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5654
+INFO:agents.extractor:Minimized HTML extraction payload: 5654 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5654 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 317)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Isaac Cody",
+      "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 338)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Elisebeth Collins",
+      "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 350)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Dan Bryant",
+      "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Public Policy and Government Affairs"
+    }
+  ]
+}
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/ralph-clare: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 15/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/megan-crozier "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157613
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5307
+INFO:agents.extractor:Minimized HTML extraction payload: 5307 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5307 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.398158 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.462924 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/megan-crozier: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/rhianon-deleeuw "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157743
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5067
+INFO:agents.extractor:Minimized HTML extraction payload: 5067 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5067 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/isaac-cody: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/michael-ehret "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157367
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5065
+INFO:agents.extractor:Minimized HTML extraction payload: 5065 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5065 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 296)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Jarred Crabtree",
+      "designation": "Senior Vice President, Global Security and Chief Security Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 309)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Dan Bryant",
+      "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 338)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Elisebeth Collins",
+      "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Michael Ehret",
+      "designation": "Senior Vice President and Chief People Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/elisebeth-collins: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/myron-frazier "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157277
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5113
+INFO:agents.extractor:Minimized HTML extraction payload: 5113 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5113 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 309)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Jarred Crabtree",
+      "designation": "Senior Vice President, Global Security and Chief Security Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Security"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.471478 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 288)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Rhianon DeLeeuw",
+      "designation": "Senior Vice President and Chief Financial Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam's Club"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/michael-ehret: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/julie-gehrki "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157705
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5223
+INFO:agents.extractor:Minimized HTML extraction payload: 5223 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5223 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.492675 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.970038 seconds
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/jarred-crabtree: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 20/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/jerry-r-geisler-iii "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157613
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5207
+INFO:agents.extractor:Minimized HTML extraction payload: 5207 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5207 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 350)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Dan Bryant",
+      "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Public Policy and Government Affairs"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 305)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Myron Frazier",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/dan-bryant: found 0 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/jerry-huang "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158251
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5790
+INFO:agents.extractor:Minimized HTML extraction payload: 5790 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5790 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING:agents.extractor:Error during AI extraction: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772712180000'}, 'provider_name': None}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 10s... (Attempt 2/4)
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/julie-gehrki: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/denise-incandela "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 159451
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 7096
+INFO:agents.extractor:Minimized HTML extraction payload: 7096 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (7096 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.430571 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/denise-incandela: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/silvia-azrai-kawas "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157365
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5230
+INFO:agents.extractor:Minimized HTML extraction payload: 5230 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5230 characters)...
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/myron-frazier: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/kyle-kinnard "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157964
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5573
+INFO:agents.extractor:Minimized HTML extraction payload: 5573 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5573 characters)...
+ERROR:agents.extractor:OpenAI returned an empty response.
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.391714 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.775496 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 313)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Jerry R. Geisler III",
+      "designation": "Executive Vice President and Chief Information Security Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.482647 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/rhianon-deleeuw: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 25/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/kerry-kotouc "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157385
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5368
+INFO:agents.extractor:Minimized HTML extraction payload: 5368 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5368 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.412770 seconds
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/jerry-huang: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/john-laney "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 156655
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 4818
+INFO:agents.extractor:Minimized HTML extraction payload: 4818 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (4818 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 322)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Kyle Kinnard",
+      "designation": "Executive Vice President and Chief Operating Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.466824 seconds
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/kerry-kotouc: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/claire-macintyre "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157556
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5255
+INFO:agents.extractor:Minimized HTML extraction payload: 5255 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5255 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.750037 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/jerry-r-geisler-iii: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/diana-marshall "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158796
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 6316
+INFO:agents.extractor:Minimized HTML extraction payload: 6316 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (6316 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "John Laney",
+      "designation": "Executive Vice President, Food, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart U.S. Food Division"
+    }
+  ]
+}
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/diana-marshall: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/mandy-mcdonald-brashear "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158190
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5166
+INFO:agents.extractor:Minimized HTML extraction payload: 5166 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5166 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 322)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Kyle Kinnard",
+      "designation": "Executive Vice President and Chief Operating Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 298)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Claire MacIntyre",
+      "designation": "Senior Vice President and Chief People Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.487522 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 1 column 211 (char 210)
+ERROR:agents.extractor:Raw content that failed: {"employees": [{"name": "John Laney", "designation": "Executive Vice President, Food, Walmart U.S.", "email": null, "phone": null, "linkedin": null, "instagram": null, "profile_url": null, "department": "Food"}]}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.410364 seconds
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/claire-macintyre: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 30/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/kathleen-mclaughlin "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 159722
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 6493
+INFO:agents.extractor:Minimized HTML extraction payload: 6493 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (6493 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.890554 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING:agents.extractor:Error during AI extraction: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772755200000'}, 'provider_name': None}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 15s... (Attempt 3/4)
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/kyle-kinnard: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/dwayne-milum "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157215
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5172
+INFO:agents.extractor:Minimized HTML extraction payload: 5172 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5172 characters)...
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.462790 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.762614 seconds
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 401)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Mandy McDonald-Brashear",
+      "designation": "Senior Vice President and Chief People Officer, Global Corporate Functions, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mandy-mcdonald-brashear/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Corporate Functions"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 311)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Dwayne Milum",
+      "designation": "Senior Vice President and Controller",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/dwayne-milum-4934948/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/silvia-azrai-kawas: found 0 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/rob-montgomery "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 156946
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 4664
+INFO:agents.extractor:Minimized HTML extraction payload: 4664 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (4664 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 401)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Mandy McDonald-Brashear",
+      "designation": "Senior Vice President and Chief People Officer, Global Corporate Functions, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mandy-mcdonald-brashear/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Corporate Functions"
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 402 Payment Required"
+WARNING:agents.extractor:Error during AI extraction: Error code: 402 - {'error': {'message': 'Provider returned error', 'code': 402, 'metadata': {'raw': '{"error":"API key USD spend limit exceeded. Your account may still have USD balance, but this API key has reached its configured USD spending limit."}', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 5s... (Attempt 1/4)
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 348)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Kathleen McLaughlin",
+      "designation": "Executive Vice President and Chief Sustainability Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/kathleenforgood/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.435302 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.411600 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.753786 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING:agents.extractor:Error during AI extraction: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '16', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772712240000'}, 'provider_name': None}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 10s... (Attempt 2/4)
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.468039 seconds
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/dwayne-milum: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/elizabeth-norton "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 157711
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5359
+INFO:agents.extractor:Minimized HTML extraction payload: 5359 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5359 characters)...
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 270)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "John Laney",
+      "designation": "Executive Vice President, Food, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.384343 seconds
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/rob-montgomery: found 1 records
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/allyson-park "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 158769
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 5346
+INFO:agents.extractor:Minimized HTML extraction payload: 5346 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (5346 characters)...
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/john-laney: found 0 records
+INFO:services.extraction_service:Deep crawl progress: 35/40
+INFO:httpx:HTTP Request: GET https://corporate.walmart.com/about/leadership/chad-pekron "HTTP/1.1 200 OK"
+INFO:agents.extractor:Cleaning HTML. Initial length: 156962
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 4719
+INFO:agents.extractor:Minimized HTML extraction payload: 4719 characters.
+INFO:agents.extractor:Processing 1 text chunks for extraction.
+INFO:agents.extractor:Extracting from chunk 1/1 (4719 characters)...
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/mandy-mcdonald-brashear: found 1 records
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/allyson-park: found 1 records
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.403783 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.955953 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING:agents.extractor:Error during AI extraction: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'qwen/qwen3-4b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 15s... (Attempt 3/4)
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/elizabeth-norton: found 1 records
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 278)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Chad Pekron",
+      "designation": "Senior Vice President and Chief Counsel, Litigation",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.425927 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/chad-pekron: found 1 records
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.449483 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:agents.extractor:Found 1 employees in chunk 1.
+INFO:services.extraction_service:Bio extract for https://corporate.walmart.com/about/leadership/kathleen-mclaughlin: found 1 records
+INFO:services.extraction_service:Deep crawl progress: 40/40
+INFO:services.extraction_service:DEBUG: all_raw_employees count: 53
+INFO:services.extraction_service:Cleaning 53 merged employee records.
+INFO:services.extraction_service:Successfully processed 53 unique employee records.

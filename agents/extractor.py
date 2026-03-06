@@ -49,7 +49,7 @@ Data Object Schema:
 }}
 
 Rules:
-1. Only return valid JSON. No conversational text.
+1. Only return valid JSON. No conversational text. Do not include trailing commas.
 2. If multiple employees are found, include them all.
 3. If no employees are found, return {{"employees": []}}.
 4. Be accurate and do not hallucinate data.
@@ -118,7 +118,7 @@ class AIExtractionAgent:
                     link_text = "contact"
                 a.replace_with(f" [Link: {link_text} ({href})] ")
             else:
-                if any(p in href.lower() for p in ["/leadership/", "/team/", "/people/", "/person/"]):
+                if any(p in href.lower() for p in ["/leadership/", "/team/", "/people/", "/person/", "/faculty/", "/staff/", "/about/", "/bio/", "/profile/", "/member/"]):
                     a.replace_with(f" [Profile: {link_text} ({href})] ")
                 else:
                     a.replace_with(link_text)
@@ -129,44 +129,22 @@ class AIExtractionAgent:
         logger.info(f"Final cleaned text length: {len(cleaned_text)}")
         return cleaned_text
 
-    async def extract_employees(self, raw_html: str) -> List[Dict[str, Any]]:
+    async def _extract_chunk(self, chunk: str) -> List[Dict[str, Any]]:
         """
-        Processes a raw HTML string through OpenAI, forcing a JSON object
-        response, parsing the JSON, validating via Pydantic, and returning
-        the sanitized list of employees.
-        
-        Args:
-            raw_html (str): The raw HTML string.
+        Internal method to extract employees from a single chunk of text.
+        """
+        if not chunk:
+            return []
             
-        Returns:
-            List[Dict[str, Any]]: Validated list of employee dicts.
-        """
-        if not raw_html or not raw_html.strip():
-            logger.warning("Empty HTML string provided. Skipping extraction.")
-            return []
-
-        # Minimize token usage by stripping the raw HTML down
-        minimized_content = self._clean_html_for_llm(raw_html)
-        logger.info(f"Minimized HTML extraction payload: {len(minimized_content)} characters.")
-        
-        # Guard rail against pages with no readable text after DOM stripping
-        if not minimized_content:
-            return []
-
-        # TRUNCATE to 5000 characters for high precision
-        if len(minimized_content) > 5000:
-            logger.warning(f"Payload too large ({len(minimized_content)}). Truncating to 5k for accuracy.")
-        minimized_content = minimized_content[:5000]
-
-        # Schema nudge to include social links
-        prompt = f"List persons as JSON (name, title, profile_url, linkedin, instagram):\n\n{minimized_content}"
+        # Use the full PROMPT_TEMPLATE so the AI knows to extract ALL fields
+        prompt = PROMPT_TEMPLATE.format(html_content=chunk)
 
         for attempt in range(4):
             try:
                 response = await self.client.chat.completions.create(
                     model=self.model,
                     messages=[{"role": "user", "content": prompt}],
-                    max_tokens=3000
+                    max_tokens=4000
                 )
                 
                 content = response.choices[0].message.content
@@ -176,11 +154,10 @@ class AIExtractionAgent:
                     continue
 
                 # Clean up the output in case it is wrapped in markdown code blocks or has a preamble
-
                 # Layer 1: Try to find a JSON block with regex
                 json_match = re.search(r'```json\s*(.*?)\s*```', content, re.DOTALL)
                 if not json_match:
-                    json_match = re.search(r'(\{.*?\})', content, re.DOTALL)
+                    json_match = re.search(r'(\{.*\})', content, re.DOTALL)
                 
                 if json_match:
                     json_str = json_match.group(1).strip()
@@ -210,6 +187,7 @@ class AIExtractionAgent:
 
             except json.JSONDecodeError as e:
                 logger.error(f"Failed to decode JSON from OpenAI response (Attempt {attempt+1}): {e}")
+                logger.error(f"Raw content that failed: {content}")
                 # Continue loop to try generating valid JSON again
                 await asyncio.sleep(2)
                 continue
@@ -229,3 +207,60 @@ class AIExtractionAgent:
                 continue
 
         return []
+
+    async def extract_employees(self, raw_html: str) -> List[Dict[str, Any]]:
+        """
+        Processes a raw HTML string through OpenAI, forcing a JSON object
+        response, parsing the JSON, validating via Pydantic, and returning
+        the sanitized list of employees.
+        
+        Args:
+            raw_html (str): The raw HTML string.
+            
+        Returns:
+            List[Dict[str, Any]]: Validated list of employee dicts.
+        """
+        if not raw_html or not raw_html.strip():
+            logger.warning("Empty HTML string provided. Skipping extraction.")
+            return []
+
+        # Minimize token usage by stripping the raw HTML down
+        minimized_content = self._clean_html_for_llm(raw_html)
+        logger.info(f"Minimized HTML extraction payload: {len(minimized_content)} characters.")
+        
+        # Guard rail against pages with no readable text after DOM stripping
+        if not minimized_content:
+            return []
+
+        # Configurable chunk limits for massive pages (reduced size to prevent output token truncation)
+        CHUNK_SIZE = 15000  # ~3.5k tokens, ensures output JSON fits in max_tokens
+        OVERLAP = 1000
+        MAX_CHUNKS = 40     # Max ~600k characters to prevent unbounded LLM costs/time
+        
+        chunks = []
+        if len(minimized_content) <= CHUNK_SIZE:
+            chunks.append(minimized_content)
+        else:
+            for i in range(0, len(minimized_content), CHUNK_SIZE - OVERLAP):
+                chunks.append(minimized_content[i:i + CHUNK_SIZE])
+                if len(chunks) >= MAX_CHUNKS:
+                    logger.warning(f"Payload extremely large. Limiting to first {MAX_CHUNKS} chunks.")
+                    break
+
+        logger.info(f"Processing {len(chunks)} text chunks for extraction.")
+        all_results = []
+        
+        # Process chunks sequentially to respect rate limits
+        for i, chunk in enumerate(chunks, 1):
+            logger.info(f"Extracting from chunk {i}/{len(chunks)} ({len(chunk)} characters)...")
+            chunk_results = await self._extract_chunk(chunk)
+            
+            if chunk_results:
+                all_results.extend(chunk_results)
+                logger.info(f"Found {len(chunk_results)} employees in chunk {i}.")
+            
+            # Small delay between chunks to mitigate rate limit errors
+            if i < len(chunks):
+                await asyncio.sleep(1.5)
+
+        return all_results

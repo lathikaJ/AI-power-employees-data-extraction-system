@@ -1,0 +1,682 @@
+--- Starting Benchmark on 1 URLs ---
+Processing: https://corporate.walmart.com
+
+=======================================================
+                 BENCHMARK RESULTS                     
+=======================================================
+Total URLs Processed      : 1
+Total Execution Time      : 475.49 seconds
+Average Execution Time    : 475.49 seconds
+Average AI Latency        : 475.49 seconds
+Extraction Accuracy       : 100.00%
+Failure Rate              : 0.00% (0 failures)
+=======================================================
+
+[+] Full extracted output data has been saved to: benchmark_extracted_data.json
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 232)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Antonia",
+      "designation": "associate",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    },
+    {
+      "name": "Harold",
+      "designation": "associate",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    },
+    {
+      "name": "Oscar",
+      "designation": "store manager",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:OpenAI returned an empty response.
+ERROR:agents.extractor:OpenAI returned an empty response.
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 310)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Chris Nicholas",
+      "designation": "President and CEO",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/chris-nicholas-01/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 372)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Suresh Kumar",
+      "designation": "Executive Vice President, Global Chief Technology Officer and Chief Development Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/suresh-kumar-cto/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 321)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Latriece Watkins",
+      "designation": "President and CEO, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/latriece-watkins-28113021/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 333)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Chris Nicholas",
+      "designation": "President and CEO, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/chris-nicholas-01/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 309)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Dan Bryant",
+      "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 309)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Latriece Watkins",
+      "designation": "President and CEO",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/latriece-watkins-28113021/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 308)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Julie Barber",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart U.S."
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 336)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "David M. Chojnowski",
+      "designation": "Senior Vice President, Global Treasury and Tax",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/david-m-chojnowski-885748118/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 336)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Ralph Clare",
+      "designation": "Executive Vice President, Health & Wellness, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/ralphclare/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Health & Wellness"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 298)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Julie Barber",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 317)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Isaac Cody",
+      "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Julie Barber",
+      "designation": "Executive Vice President and Chief Merchandising Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart U.S."
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 317)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Isaac Cody",
+      "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 357)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Elisebeth Collins",
+      "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Ethics and Compliance"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 317)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Isaac Cody",
+      "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 353)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Megan Crozier",
+      "designation": "Executive Vice President, General Merchandise, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/megan-crozier-b680094/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "General Merchandise"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 298)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Julie Barber",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 288)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Rhianon DeLeeuw",
+      "designation": "Senior Vice President and Chief Financial Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam's Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 338)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Elisebeth Collins",
+      "designation": "Executive Vice President and Global Chief Ethics and Compliance Officer and Special Counsel, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 305)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Myron Frazier",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 317)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Isaac Cody",
+      "designation": "Senior Vice President and Chief Financial Officer, Walmart International",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Walmart International"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 305)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Myron Frazier",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 344)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Diana Marshall",
+      "designation": "Executive Vice President and Chief Experience Officer, Sam's Club",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/diana-marshall-a089623/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 298)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Claire MacIntyre",
+      "designation": "Senior Vice President and Chief People Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 352)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Diana Marshall",
+      "designation": "Executive Vice President and Chief Experience Officer, Sam's Club",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/diana-marshall-a089623/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam's Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 401)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Mandy McDonald-Brashear",
+      "designation": "Senior Vice President and Chief People Officer, Global Corporate Functions, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mandy-mcdonald-brashear/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Corporate Functions"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 293)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Myron Frazier",
+      "designation": "Executive Vice President and Chief Merchandising Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 290)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Claire MacIntyre",
+      "designation": "Senior Vice President and Chief People Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 305)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Myron Frazier",
+      "designation": "Executive Vice President and Chief Merchandising Officer, Sam’s Club",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam’s Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 401)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Mandy McDonald-Brashear",
+      "designation": "Senior Vice President and Chief People Officer, Global Corporate Functions, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mandy-mcdonald-brashear/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Corporate Functions"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 332)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Diana Marshall",
+      "designation": "Executive Vice President and Chief Experience Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/diana-marshall-a089623/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 348)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Kathleen McLaughlin",
+      "designation": "Executive Vice President and Chief Sustainability Officer, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/kathleenforgood/",
+      "instagram": null,
+      "profile_url": null,
+      "department": null
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 401)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Mandy McDonald-Brashear",
+      "designation": "Senior Vice President and Chief People Officer, Global Corporate Functions, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/mandy-mcdonald-brashear/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Global Corporate Functions"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 294)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Silvia Azrai Kawas",
+      "designation": "Executive Vice President, Consumables, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Consumables"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 4): Expecting ',' delimiter: line 12 column 6 (char 340)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Diana Marshall",
+      "designation": "Executive Vice President and Chief Experience Officer",
+      "email": null,
+      "phone": null,
+      "linkedin": "https://www.linkedin.com/in/diana-marshall-a089623/",
+      "instagram": null,
+      "profile_url": null,
+      "department": "Sam's Club"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 314)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Rob Montgomery",
+      "designation": "Executive Vice President, Supply Chain Operations, Walmart U.S.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Supply Chain Operations"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 1): Expecting ',' delimiter: line 12 column 6 (char 286)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Chad Pekron",
+      "designation": "Senior Vice President and Chief Counsel, Litigation",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Litigation"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 2): Expecting ',' delimiter: line 12 column 6 (char 300)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Chad Pekron",
+      "designation": "Senior Vice President and Chief Counsel, Litigation, Walmart Inc.",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Litigation"
+    }
+  ]
+}
+ERROR:agents.extractor:Failed to decode JSON from OpenAI response (Attempt 3): Expecting ',' delimiter: line 12 column 6 (char 286)
+ERROR:agents.extractor:Raw content that failed: {
+  "employees": [
+    {
+      "name": "Chad Pekron",
+      "designation": "Senior Vice President and Chief Counsel, Litigation",
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "instagram": null,
+      "profile_url": null,
+      "department": "Litigation"
+    }
+  ]
+}

@@ -16,7 +16,7 @@ logger = logging.getLogger("benchmark")
 
 # List of URLs to benchmark
 TARGET_URLS = [
-    "https://corporate.walmart.com"
+    "https://corporate.walmart.com/about/leadership"
 ]
 
 class BenchmarkRunner:

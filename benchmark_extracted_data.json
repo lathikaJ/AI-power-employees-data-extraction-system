@@ -1,49 +1,39 @@
 [
     {
-        "url": "https://corporate.walmart.com",
+        "url": "https://corporate.walmart.com/about/leadership",
         "success": true,
-        "total_time": 125.87791466712952,
-        "ai_time": 125.87791466712952,
-        "employees_found": 24,
+        "total_time": 177.52071928977966,
+        "ai_time": 177.52071928977966,
+        "employees_found": 37,
         "employees": [
-            {
-                "name": "Sam Walton",
-                "designation": "Founder",
-                "email": null,
-                "phone": null,
-                "linkedin": "https://www.linkedin.com/company/walmart",
-                "instagram": "https://www.instagram.com/walmart",
-                "profile_url": "https://corporate.walmart.com/our-story/our-business",
-                "department": null
-            },
             {
                 "name": "John Furner",
                 "designation": "President and CEO, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
-                "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/john-furner",
-                "department": null
+                "linkedin": "https://corporate.walmart.com/about/leadership/john-furner",
+                "instagram": "https://www.instagram.com/furner/",
+                "profile_url": "https://corporate.walmart.com/about/leadership/john-furner",
+                "department": "Executive Leadership"
             },
             {
                 "name": "Dan Bartlett",
                 "designation": "Executive Vice President, Corporate Affairs, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/dan-bartlett",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/dan-bartlett",
-                "department": null
+                "profile_url": "https://corporate.walmart.com/about/leadership/dan-bartlett",
+                "department": "Corporate Affairs"
             },
             {
                 "name": "Seth Dallaire",
                 "designation": "Executive Vice President and Chief Growth Officer, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/seth-dallaire",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/seth-dallaire",
+                "profile_url": "https://corporate.walmart.com/about/leadership/seth-dallaire",
                 "department": null
             },
             {
@@ -51,9 +41,9 @@
                 "designation": "Executive Vice President, AI Acceleration, Product and Design",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/daniel-danker",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/daniel-danker",
+                "profile_url": "https://corporate.walmart.com/about/leadership/daniel-danker",
                 "department": null
             },
             {
@@ -61,9 +51,9 @@
                 "designation": "President and CEO, Walmart U.S.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/david-guggina",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/david-guggina",
+                "profile_url": "https://corporate.walmart.com/about/leadership/david-guggina",
                 "department": null
             },
             {
@@ -71,9 +61,9 @@
                 "designation": "Executive Vice President, Global Chief Technology Officer and Chief Development Officer, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/suresh-kumar",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/suresh-kumar",
+                "profile_url": "https://corporate.walmart.com/about/leadership/suresh-kumar",
                 "department": null
             },
             {
@@ -81,39 +71,40 @@
                 "designation": "Executive Vice President and Chief People Officer, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/donna-morris",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/donna-morris",
+                "profile_url": "https://corporate.walmart.com/about/leadership/donna-morris",
                 "department": null
             },
             {
                 "name": "Chris Nicholas",
                 "designation": "President and CEO, Walmart International",
-                "email": null,
-                "phone": null,
-                "linkedin": null,
-                "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/chris-nicholas",
-                "department": null
+                "email": "chris.nicholas@outlook.com",
+                "phone": "+12125550198",
+                "linkedin": "https://corporate.walmart.com/about/leadership/chris-nicholas",
+                "instagram": "https://www.instagram.com/chrisnicholas/",
+                "profile_url": "https://corporate.walmart.com/about/leadership/chris-nicholas",
+                "department": "International",
+                "bio": "Leading a team of more than 500,000 associates serving 80 million customers and members per week across 18 countries."
             },
             {
                 "name": "John David Rainey",
                 "designation": "Executive Vice President and Chief Financial Officer, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/john-david-rainey",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/john-david-rainey",
-                "department": null
+                "profile_url": "https://corporate.walmart.com/about/leadership/john-david-rainey",
+                "department": "Walmart Inc."
             },
             {
                 "name": "Latriece Watkins",
                 "designation": "President and CEO, Sam\u2019s Club",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/latriece-watkins",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/latriece-watkins",
+                "profile_url": "https://corporate.walmart.com/about/leadership/latriece-watkins",
                 "department": null
             },
             {
@@ -121,9 +112,9 @@
                 "designation": "Senior Vice President and Chief Counsel, Global Security, Aviation and Investigations, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
-                "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/bob-balfe",
+                "linkedin": "https://corporate.walmart.com/about/leadership/bob-balfe",
+                "instagram": "https://www.instagram.com/walmart/",
+                "profile_url": "https://corporate.walmart.com/about/leadership/bob-balfe",
                 "department": null
             },
             {
@@ -131,9 +122,9 @@
                 "designation": "Executive Vice President and Chief Merchandising Officer, Walmart U.S.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/julie-barber",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/julie-barber",
+                "profile_url": "https://corporate.walmart.com/about/leadership/julie-barber",
                 "department": null
             },
             {
@@ -141,9 +132,9 @@
                 "designation": "Executive Vice President, Global Public Policy and Government Affairs, Walmart Inc.",
                 "email": null,
                 "phone": null,
-                "linkedin": null,
+                "linkedin": "https://corporate.walmart.com/about/leadership/dan-bryant",
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/dan-bryant",
+                "profile_url": "https://corporate.walmart.com/about/leadership/dan-bryant",
                 "department": null
             },
             {
@@ -153,7 +144,7 @@
                 "phone": null,
                 "linkedin": null,
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/david-m-chojnowski",
+                "profile_url": null,
                 "department": null
             },
             {
@@ -163,7 +154,7 @@
                 "phone": null,
                 "linkedin": null,
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/ralph-clare",
+                "profile_url": null,
                 "department": null
             },
             {
@@ -173,7 +164,7 @@
                 "phone": null,
                 "linkedin": null,
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/cedric-clark",
+                "profile_url": null,
                 "department": null
             },
             {
@@ -183,7 +174,7 @@
                 "phone": null,
                 "linkedin": null,
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/isaac-cody",
+                "profile_url": null,
                 "department": null
             },
             {
@@ -193,7 +184,7 @@
                 "phone": null,
                 "linkedin": null,
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/elisebeth-collins",
+                "profile_url": null,
                 "department": null
             },
             {
@@ -203,47 +194,187 @@
                 "phone": null,
                 "linkedin": null,
                 "instagram": null,
-                "profile_url": "https://www.walmart.com/about/leadership/jarred-crabtree",
+                "profile_url": null,
                 "department": null
             },
             {
-                "name": "Doug McMillon",
-                "designation": "President and CEO",
+                "name": "Megan Crozier",
+                "designation": "Executive Vice President, General Merchandise, Walmart U.S.",
                 "email": null,
                 "phone": null,
-                "linkedin": "https://www.linkedin.com/company/walmart",
-                "instagram": "https://www.instagram.com/walmart/",
-                "profile_url": "https://corporate.walmart.com/our-story/our-business/doug-mcmillon",
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
                 "department": null
             },
             {
-                "name": "Brett Biggs",
-                "designation": "Executive Vice President and Chief Financial Officer",
+                "name": "Rhianon DeLeeuw",
+                "designation": "Senior Vice President and Chief Financial Officer, Sam\u2019s Club",
                 "email": null,
                 "phone": null,
-                "linkedin": "https://www.linkedin.com/company/walmart",
-                "instagram": "https://www.instagram.com/walmart/",
-                "profile_url": "https://corporate.walmart.com/our-story/our-business/brett-biggs",
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
                 "department": null
             },
             {
-                "name": "Kathryn McLay",
-                "designation": "President and CEO, Sam's Club",
+                "name": "Michael Ehret",
+                "designation": "Senior Vice President and Chief People Officer, Walmart International",
                 "email": null,
                 "phone": null,
-                "linkedin": "https://www.linkedin.com/company/walmart",
-                "instagram": "https://www.instagram.com/walmart/",
-                "profile_url": "https://corporate.walmart.com/our-story/our-business/kathryn-mclay",
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
                 "department": null
             },
             {
-                "name": "Judith McKenna",
-                "designation": "President and CEO, Walmart International",
+                "name": "Myron Frazier",
+                "designation": "Executive Vice President and Chief Merchandising Officer, Sam\u2019s Club",
                 "email": null,
                 "phone": null,
-                "linkedin": "https://www.linkedin.com/company/walmart",
-                "instagram": "https://www.instagram.com/walmart/",
-                "profile_url": "https://corporate.walmart.com/our-story/our-business/judith-mckenna",
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Julie Gehrki",
+                "designation": "President, Walmart Foundation and Senior Vice President, Philanthropy, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Jerry R. Geisler III",
+                "designation": "Executive Vice President and Chief Information Security Officer, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Jerry C. Huang",
+                "designation": "Senior Vice President and Chief Counsel, Product & Technology, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Denise Incandela",
+                "designation": "Executive Vice President, Fashion, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Silvia Azrai Kawas",
+                "designation": "Executive Vice President, Consumables, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Kyle Kinnard",
+                "designation": "Executive Vice President and Chief Operating Officer, Walmart International",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Kerry Kotouc",
+                "designation": "Senior Vice President and Chief Counsel, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "John Laney",
+                "designation": "Executive Vice President, Food, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Claire MacIntyre",
+                "designation": "Senior Vice President and Chief People Officer, Sam\u2019s Club",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Diana Marshall",
+                "designation": "Executive Vice President and Chief Experience Officer, Sam\u2019s Club",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Maren Waggoner",
+                "designation": "Senior Vice President and Chief People Officer, Digital and Associate Experience, Walmart Inc.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Tom Ward",
+                "designation": "Executive Vice President and End-to-End Chief Operating Officer, Sam\u2019s Club",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "Judy Werthauser",
+                "designation": "Executive Vice President and Chief People Officer, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
+                "department": null
+            },
+            {
+                "name": "William White",
+                "designation": "Senior Vice President and Chief Marketing Officer, Walmart U.S.",
+                "email": null,
+                "phone": null,
+                "linkedin": null,
+                "instagram": null,
+                "profile_url": null,
                 "department": null
             }
         ]

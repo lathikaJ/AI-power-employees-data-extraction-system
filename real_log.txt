@@ -1,0 +1,28 @@
+Starting extraction for: https://about.gitlab.com/company/team/
+Extraction complete! Data saved to: D:\lathika\infynd\Employee Data Scraping & Extraction System\output.json
+Found 0 employees.
+INFO:services.extraction_service:Validating URL: https://about.gitlab.com/company/team/
+INFO:services.extraction_service:Crawling URL: https://about.gitlab.com/company/team/
+INFO:agents.crawl_agent:Deep link detected (https://about.gitlab.com/company/team/). Skipping sub-path crawling to stay focused.
+INFO:agents.crawl_agent:Fetching: https://about.gitlab.com/company/team/ (Attempt 1)
+INFO:httpx:HTTP Request: GET https://about.gitlab.com/company/team/ "HTTP/1.1 200 OK"
+INFO:agents.crawl_agent:Successfully fetched: https://about.gitlab.com/company/team/
+INFO:services.extraction_service:Running AI extraction for page chunk 1 of 1
+INFO:agents.extractor:Cleaning HTML. Initial length: 5789089
+INFO:agents.extractor:Decomposed boilerplate tags (style, meta, svg, etc.)
+INFO:agents.extractor:Final cleaned text length: 1499715
+INFO:agents.extractor:Minimized HTML extraction payload: 1499715 characters.
+WARNING:agents.extractor:Payload too large (1499715). Truncating to 5k for accuracy.
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.376693 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.770247 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+WARNING:agents.extractor:Error during AI extraction: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1772755200000'}, 'provider_name': None}}, 'user_id': 'user_39qV430KnRYyN4YYQECJwZxxGqw'}. Waiting 5s... (Attempt 1/4)
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /chat/completions in 0.498459 seconds
+INFO:httpx:HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:services.extraction_service:Extracted 0 raw employees from page chunk 1
+INFO:services.extraction_service:DEBUG: all_raw_employees count: 0
+INFO:services.extraction_service:Cleaning 0 merged employee records.
+INFO:services.extraction_service:Successfully processed 0 unique employee records.
